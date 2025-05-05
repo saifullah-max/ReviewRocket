@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"tsc --watch\" \"npx nodemon dist/index.js\"",
-    "start": "nodemon dist/index.js"
+    "start": "nodmeon dist/index.js"
   },
   "keywords": [],
   "author": "",
