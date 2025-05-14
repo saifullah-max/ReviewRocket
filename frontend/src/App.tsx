@@ -1,13 +1,15 @@
 import './App.css'
+import Home from './home/Home'
+import Login from './login/Login'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
 
   return (
-    <>
-    <p className='text-sm'>Welcome to Rocket Review!</p>
-    <p className='text-xl'>Welcome to Rocket Review!</p>
-    <p className='text-2xl'>Welcome to Rocket Review!</p>
-    </>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/login' element={<Login />} />
+    </Routes>
   )
 }
 
